@@ -95,7 +95,7 @@ def main():
         saidas = df[df['tipo']=='Saída']
         entradas = df[df['tipo']=='Entrada']
 
-        maiores_gastos = saidas.groupby('segmento').sum().sort_values('movimentacao', ascending = False).head(10)['movimentacao']
+        # maiores_gastos = saidas.groupby('segmento').sum().sort_values('movimentacao', ascending = False).head(10)['movimentacao']
 
         maiores_saidas = pd.pivot_table(saidas, index=['mes', 'ano'], columns=['segmento'], values='movimentacao')
         maiores_saidas_stack = maiores_saidas.fillna(0).stack().reset_index()   
