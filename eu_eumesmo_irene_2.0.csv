@@ -1,0 +1,334 @@
+﻿data;exercicio;tipo;segmento;meio;movimentacao;saldo
+18/12/2022;01/01/2023;Saída;vende-c;crédito;832,1;54000
+18/12/2022;01/01/2023;Saída;igti;crédito;1120,15;52879,85
+18/12/2022;01/01/2023;Saída;alura;crédito;382,5;52497,35
+18/12/2022;01/01/2023;Saída;ebac;crédito;1182,9;51314,45
+26/12/2022;01/01/2023;Saída;mercado ano novo;crédito;1248,4;50066,05
+01/01/2023;01/01/2023;Saída;Convênio;boleto;5892,05;44174
+01/01/2023;01/01/2023;Saída;Combustível;crédito;400;43774
+01/01/2023;01/01/2023;Saída;Telefone;crédito;270;43504
+01/01/2023;01/01/2023;Saída; Assinaturas ;crédito;74,5;43429,5
+01/01/2023;01/01/2023;Saída;Alimentação;crédito;414,65;43014,85
+01/01/2023;01/01/2023;Saída;Lazer;crédito;1789,85;41225
+01/01/2023;01/01/2023;Saída;Uber;crédito;434,35;40790,65
+02/01/2023;01/01/2023;Entrada;Dividendos;pix;125740,15;166530,8
+02/01/2023;01/01/2023;Entrada;Dividendos;pix;66577,45;233108,25
+02/01/2023;01/01/2023;Entrada;Dividendos;pix;59449,05;292557,3
+03/01/2023;01/01/2023;Entrada;Pró-labore;pix;25000;317557,3
+03/01/2023;01/01/2023;Saída;umma;crédito;1697,8;315859,5
+03/01/2023;01/01/2023;Saída;umma;crédito;224,8;315634,7
+03/01/2023;01/01/2023;Saída;umma;crédito;1199,7;314435
+09/01/2023;01/01/2023;Saída;celular;crédito;3166;311269
+14/01/2023;01/01/2023;Saída;tarifa bb;débito;84,6;311184,4
+14/01/2023;01/01/2023;Saída;tarifa bb;débito;84,6;311099,8
+14/01/2023;01/01/2023;Entrada;Pró-labore;pix;35000;346099,8
+18/01/2023;01/02/2023;Saída;vende-c;crédito;832,1;345267,7
+18/01/2023;01/02/2023;Saída;igti;crédito;1120,15;344147,55
+18/01/2023;01/02/2023;Saída;alura;crédito;382,5;343765,05
+18/01/2023;01/02/2023;Saída; ebac ;crédito;1182,9;342582,15
+18/01/2023;01/02/2023;Saída;amazon;crédito;286,8;342295,35
+01/02/2023;01/02/2023;Saída;Convênio;boleto;5892,05;336403,3
+01/02/2023;01/02/2023;Saída;Assinaturas;crédito;209,5;336193,8
+01/02/2023;01/02/2023;Saída;Alimentação;crédito;1391,15;334802,65
+01/02/2023;01/02/2023;Saída;Lazer;crédito;1088;333714,65
+01/02/2023;01/02/2023;Saída;Uber;crédito;673,5;333041,15
+02/02/2023;01/02/2023;Saída;monster of rock;crédito;408;332633,15
+09/02/2023;01/02/2023;Saída;joao do rock;crédito;233,5;332399,65
+09/02/2023;01/02/2023;Saída;celular;crédito;3166;329233,65
+18/02/2023;01/03/2023;Saída;vende-c;crédito;832,1;328401,55
+18/02/2023;01/03/2023;Saída;igti;crédito;1120,15;327281,4
+18/02/2023;01/03/2023;Saída;alura;crédito;382,5;326898,9
+18/02/2023;01/03/2023;Saída;ebac;crédito;1182,9;325716
+18/02/2023;01/03/2023;Saída;amazon;crédito;286,8;325429,2
+01/03/2023;01/03/2023;Saída;Convênio;boleto;5892,05;319537,15
+01/03/2023;01/03/2023;Saída;Telefone;crédito;135;319402,15
+01/03/2023;01/03/2023;Saída;Assinaturas;crédito;209,5;319192,65
+01/03/2023;01/03/2023;Saída;Alimentação;crédito;347,7;318844,95
+01/03/2023;01/03/2023;Saída;Lazer;crédito;2652,95;316192
+01/03/2023;01/03/2023;Saída;Uber;crédito;1112,8;315079,2
+02/03/2023;01/03/2023;Saída; monster of rock ;crédito;408;314671,2
+09/03/2023;01/03/2023;Saída;joao do rock;crédito;233,5;314437,7
+09/03/2023;01/03/2023;Saída;celular;crédito;3166;311271,7
+14/03/2023;01/03/2023;Saída;tarifa bb;débito;84,6;311187,1
+14/03/2023;01/03/2023;Entrada;Pró-labore;pix;40000;351187,1
+15/03/2023;01/03/2023;Saída;farmacia;crédito;284,95;350902,15
+15/03/2023;01/03/2023;Saída;edifier;crédito;332,5;350569,65
+15/03/2023;01/04/2023;Saída;farmacia;crédito;284,95;350284,7
+18/03/2023;01/04/2023;Saída;amazon;crédito;286,8;349997,9
+28/03/2023;01/04/2023;Saída;summer breeze;crédito;498,65;349499,25
+29/03/2023;01/04/2023;Saída;farmacia;crédito;386,35;349112,9
+31/03/2023;01/04/2023;Saída;havena;crédito;200;348912,9
+01/04/2023;01/04/2023;Saída;Aluguel/Parcelamento ;pix;0;348912,9
+01/04/2023;01/04/2023;Saída; Convênio ;boleto;5892,05;343020,85
+01/04/2023;01/04/2023;Saída;Água;pix;93,85;342927
+01/04/2023;01/04/2023;Saída;Luz;pix;353,3;342573,7
+01/04/2023;01/04/2023;Saída;Condomínio;pix;5396,25;337177,45
+01/04/2023;01/04/2023;Saída;Combustível;pix;660;336517,45
+01/04/2023;01/04/2023;Saída;Internet ;pix;324,63;336192,83
+01/04/2023;01/04/2023;Saída;Telefone;crédito;175;336017,83
+01/04/2023;01/04/2023;Saída;Assinaturas;crédito;209,5;335808,33
+01/04/2023;01/04/2023;Saída;Alimentação;crédito;2376,15;333432,18
+01/04/2023;01/04/2023;Saída;Roupas;crédito;300;333132,18
+01/04/2023;01/04/2023;Saída;Lazer;crédito;1177,2;331954,98
+01/04/2023;01/04/2023;Saída;Uber;crédito;608,35;331346,63
+02/04/2023;01/04/2023;Saída;monster of rock;crédito;408;330938,63
+03/04/2023;01/04/2023;Saída;umma;crédito;659,95;330278,68
+04/04/2023;01/04/2023;Saída;conserto carro;crédito;3433,15;326845,53
+09/04/2023;01/04/2023;Saída; joao do rock ;crédito;233,5;326612,03
+09/04/2023;01/04/2023;Saída;celular;crédito;3166;323446,03
+14/04/2023;01/04/2023;Saída;tarifa bb;débito;84,6;323361,43
+14/04/2023;01/04/2023;Entrada;Pró-labore;pix;35000;358361,43
+15/04/2023;01/04/2023;Saída;edifier;crédito;332,5;358028,93
+18/04/2023;01/04/2023;Saída;ebac;crédito;1182,9;356846,03
+28/04/2023;01/05/2023;Saída;summer breeze;crédito;498,65;356347,38
+01/05/2023;01/05/2023;Saída; Aluguel/Parcelamento  ;pix;4750;351597,38
+01/05/2023;01/05/2023;Saída;Convênio;boleto;5892,05;345705,33
+01/05/2023;01/05/2023;Saída;Água;pix;16,88;345688,45
+01/05/2023;01/05/2023;Saída;Luz;pix;333,8;345354,65
+01/05/2023;01/05/2023;Saída;Condomínio;pix;5396,25;339958,4
+01/05/2023;01/05/2023;Saída;Combustível;pix;440;339518,4
+01/05/2023;01/05/2023;Saída;Internet ;pix;324,63;339193,78
+01/05/2023;01/05/2023;Saída;Telefone;crédito;135;339058,78
+01/05/2023;01/05/2023;Saída;Assinaturas;crédito;209,5;338849,28
+02/05/2023;01/05/2023;Saída;monster of rock;crédito;408;338441,28
+03/05/2023;01/05/2023;Saída;umma;crédito;0;338441,28
+03/05/2023;01/06/2023;Saída;umma;crédito;0;338441,28
+04/05/2023;01/05/2023;Saída;conserto carro;crédito;3433,15;335008,13
+09/05/2023;01/05/2023;Saída;joao do rock;crédito;233,5;334774,63
+09/05/2023;01/05/2023;Saída; celular ;crédito;3166;331608,63
+14/05/2023;01/05/2023;Saída;tarifa bb;débito;84,6;331524,03
+14/05/2023;01/05/2023;Entrada;Pró-labore;pix;35000;366524,03
+15/05/2023;01/05/2023;Saída;edifier;crédito;332,5;366191,53
+18/05/2023;01/05/2023;Saída;ebac;crédito;1182,9;365008,63
+18/05/2023;01/06/2023;Saída;joao do rock;crédito;233,5;364775,13
+18/05/2023;01/06/2023;Saída;monster of rock;crédito;408;364367,13
+18/05/2023;01/06/2023;Saída;celular;crédito;3166;361201,13
+18/05/2023;01/06/2023;Saída;ebac;crédito;1182,9;360018,23
+18/05/2023;01/06/2023;Saída;edifier;crédito;332,5;359685,73
+18/05/2023;01/06/2023;Saída;conserto carro;crédito;3433,15;356252,58
+18/05/2023;01/06/2023;Saída;summer breeze;crédito;498,65;355753,93
+20/05/2023;01/05/2023;Saída;pix gordo;pix;500;355253,93
+31/05/2023;01/05/2023;Saída;pix giraia;pix;1250;354003,93
+31/05/2023;01/05/2023;Saída;pix thc;pix;837,05;353166,88
+31/05/2023;01/06/2023;Saída;roger waters;crédito;810;352356,88
+31/05/2023;01/06/2023;Saída;lynyrd manowar;crédito;409,55;351947,33
+01/06/2023;01/06/2023;Saída;Aluguel/Parcelamento ;pix;4750;347197,33
+01/06/2023;01/06/2023;Saída;Convênio;boleto;5892,05;341305,28
+01/06/2023;01/06/2023;Saída;Água/gas;pix;93,98;341211,3
+01/06/2023;01/06/2023;Saída;Luz;pix;333,8;340877,5
+01/06/2023;01/06/2023;Saída; Condomínio ;pix;5396,25;335481,25
+01/06/2023;01/06/2023;Saída;Combustível;pix;440;335041,25
+01/06/2023;01/06/2023;Saída;Internet ;pix;324,65;334716,6
+01/06/2023;01/06/2023;Saída;Telefone;crédito;100;334616,6
+01/06/2023;01/06/2023;Saída;Assinaturas;crédito;209,5;334407,1
+01/06/2023;01/06/2023;Saída;Alimentação;crédito;2737,95;331669,15
+01/06/2023;01/06/2023;Saída;Lazer;crédito;1540,45;330128,7
+01/06/2023;01/06/2023;Saída;Uber;crédito;124,2;330004,5
+01/06/2023;01/06/2023;Saída;Outros;crédito;84,5;329920
+14/06/2023;01/06/2023;Entrada;Pró-labore;pix;35000;364920
+14/06/2023;01/06/2023;Saída;tarifa bb;crédito;84,6;364835,4
+18/06/2023;01/07/2023;Saída;monster of rock;crédito;408;364427,4
+18/06/2023;01/07/2023;Saída;ebac;crédito;1182,9;363244,5
+18/06/2023;01/07/2023;Saída;edifier;crédito;332,5;362912
+18/06/2023;01/07/2023;Saída; summer breeze ;crédito;498,65;362413,35
+18/06/2023;01/07/2023;Saída;roger waters;crédito;810;361603,35
+18/06/2023;01/07/2023;Saída;lynyrd manowar;crédito;409,55;361193,8
+18/06/2023;01/07/2023;Saída;umma;crédito;2820,72;358373,08
+30/06/2023;01/07/2023;Saída;itershop;crédito;3250;355123,08
+30/06/2023;01/06/2023;Saída; splitwise ;crédito;383,25;354739,83
+01/07/2023;01/07/2023;Saída;Aluguel/Parcelamento ;pix;5750;348989,83
+01/07/2023;01/07/2023;Saída; Convênio ;boleto;5892,05;343097,78
+01/07/2023;01/07/2023;Saída;Água;pix;135,78;342962
+01/07/2023;01/07/2023;Saída;Luz;pix;281,3;342680,7
+01/07/2023;01/07/2023;Saída;Condomínio;pix;5396,25;337284,45
+01/07/2023;01/07/2023;Saída;Combustível;pix;220;337064,45
+01/07/2023;01/07/2023;Saída;Internet ;pix;324,65;336739,8
+01/07/2023;01/07/2023;Saída; Telefone ;crédito;0;336739,8
+01/07/2023;01/07/2023;Saída;Assinaturas;crédito;384,5;336355,3
+01/07/2023;01/07/2023;Saída;Alimentação;crédito;4964,95;331390,35
+01/07/2023;01/07/2023;Saída;Produtos de limpeza;crédito;375;331015,35
+01/07/2023;01/07/2023;Saída;Lazer;crédito;3178,6;327836,75
+01/07/2023;01/07/2023;Saída;Uber;crédito;598,6;327238,15
+01/07/2023;01/07/2023;Saída;Outros;crédito;132;327106,15
+01/07/2023;01/07/2023;Saída;joao do rock;crédito;233,5;326872,65
+14/07/2023;01/07/2023;Entrada; Pró-labore ;pix;35000;361872,65
+14/07/2023;01/07/2023;Entrada;Dividendos;pix;129905,55;491778,2
+15/07/2023;01/07/2023;Saída;tarifa bb;débito;84,6;491693,6
+18/07/2023;01/08/2023;Saída; monster of rock ;crédito;408;491285,6
+18/07/2023;01/08/2023;Saída;ebac;crédito;1182,9;490102,7
+18/07/2023;01/08/2023;Saída;edifier;crédito;332,5;489770,2
+18/07/2023;01/08/2023;Saída;summer breeze;crédito;498,35;489271,85
+18/07/2023;01/08/2023;Saída;lynyrd manowar;crédito;409,55;488862,3
+31/07/2023;01/08/2023;Saída;dentista;pix;2250;486612,3
+01/08/2023;01/08/2023;Saída;Aluguel/Parcelamento ;pix;5833,35;480778,95
+01/08/2023;01/08/2023;Saída;Convênio;boleto;5892,05;474886,9
+01/08/2023;01/08/2023;Saída;Água;pix;72,6;474814,3
+01/08/2023;01/08/2023;Saída;Luz;pix;347,4;474466,9
+01/08/2023;01/08/2023;Saída;Condomínio;pix;3097,5;471369,4
+01/08/2023;01/08/2023;Saída;Combustível;pix;440;470929,4
+01/08/2023;01/08/2023;Saída;Internet ;pix;216,4;470713
+01/08/2023;01/08/2023;Saída;Telefone;crédito;150;470563
+01/08/2023;01/08/2023;Saída;Assinaturas;crédito;209,5;470353,5
+01/08/2023;01/08/2023;Saída; Alimentação ;crédito;2477;467876,5
+01/08/2023;01/08/2023;Saída;Educação;crédito;149,95;467726,55
+01/08/2023;01/08/2023;Saída;Lazer;crédito;2358,1;465368,45
+01/08/2023;01/08/2023;Saída;Uber;crédito;523,8;464844,65
+03/08/2023;01/08/2023;Saída;pix thc;crédito;703,5;464141,15
+03/08/2023;01/08/2023;Saída;revisão carro;crédito;1366,7;462774,45
+04/08/2023;01/08/2023;Saída;vans;crédito;353,6;462420,85
+05/08/2023;01/08/2023;Saída; angra ;crédito;210;462210,85
+08/08/2023;01/08/2023;Saída;mormaii;crédito;343,7;461867,15
+14/08/2023;01/08/2023;Saída;tarifa bb;débito;84,6;461782,55
+14/08/2023;01/08/2023;Entrada;Pró-labore;pix;35680;497462,55
+18/08/2023;01/09/2023;Saída;monster of rock;crédito;408;497054,55
+18/08/2023;01/09/2023;Saída;ebac;crédito;1182,9;495871,65
+18/08/2023;01/09/2023;Saída;summer breeze;crédito;498,35;495373,3
+18/08/2023;01/09/2023;Saída;lynyrd manowar;crédito;409,55;494963,75
+18/08/2023;01/09/2023;Saída;tarifa bb;débito;84,6;494879,15
+18/08/2023;01/09/2023;Saída;revisão carro;crédito;1366,7;493512,45
+18/08/2023;01/09/2023;Saída;vans;crédito;353,6;493158,85
+18/08/2023;01/09/2023;Saída;angra;crédito;210;492948,85
+18/08/2023;01/09/2023;Saída;mormaii;crédito;343,7;492605,15
+23/08/2023;01/09/2023;Saída;paul maccartney;crédito;715,1;491890,05
+01/09/2023;01/09/2023;Saída; Aluguel/Parcelamento  ;pix;5833,35;486056,7
+01/09/2023;01/09/2023;Saída;Convênio;boleto;5892,05;480164,65
+01/09/2023;01/09/2023;Saída;Água;pix;83,45;480081,2
+01/09/2023;01/09/2023;Saída;Luz;pix;323,55;479757,65
+01/09/2023;01/09/2023;Saída;Condomínio;pix;3097,5;476660,15
+01/09/2023;01/09/2023;Saída;Combustível;pix;440;476220,15
+01/09/2023;01/09/2023;Saída;Internet ;pix;216,4;476003,75
+01/09/2023;01/09/2023;Saída;Telefone;crédito;1462,35;474541,4
+01/09/2023;01/09/2023;Saída;Assinaturas;crédito;209,5;474331,9
+01/09/2023;01/09/2023;Saída;Alimentação;crédito;2517,4;471814,5
+01/09/2023;01/09/2023;Saída;Lazer;crédito;2123,2;469691,3
+01/09/2023;01/09/2023;Saída;Uber;crédito;689,05;469002,25
+01/09/2023;01/09/2023;Saída;Outros;crédito;95;468907,25
+01/09/2023;01/09/2023;Entrada;rico bcff11;rendimento;3156,35;472063,6
+01/09/2023;01/09/2023;Entrada;rico hglg11;rendimento;2101,25;474164,85
+01/09/2023;01/09/2023;Entrada;rico alzr11;rendimento;331,8;474496,65
+01/09/2023;01/09/2023;Entrada;rico trend di;rendimento;3800,5;478297,15
+01/09/2023;01/09/2023;Entrada;bb fundo m mercados;rendimento;14,8;478311,95
+01/09/2023;01/09/2023;Entrada;bb fundo rf tesouro;rendimento;354,9;478666,85
+01/09/2023;01/09/2023;Entrada;bb lca;rendimento;437,5;479104,35
+01/09/2023;01/09/2023;Entrada; bi inter cons ;rendimento;22,2;479126,55
+01/09/2023;01/09/2023;Entrada;bi arx vision;rendimento;62,45;479189
+01/09/2023;01/09/2023;Entrada;bi inter corp;rendimento;54;479243
+01/09/2023;01/09/2023;Entrada;nu caixinha;rendimento;842,85;480085,85
+05/09/2023;01/09/2023;Saída;pc avell;pix;33750;446335,85
+14/09/2023;01/09/2023;Entrada;Pró-labore;pix;40680;487015,85
+18/09/2023;01/10/2023;Saída;monster of rock;crédito;408;486607,85
+18/09/2023;01/10/2023;Saída;ebac;crédito;1182,9;485424,95
+18/09/2023;01/10/2023;Saída;summer breeze;crédito;498,35;484926,6
+18/09/2023;01/10/2023;Saída;paul maccartney;crédito;715,1;484211,5
+18/09/2023;01/10/2023;Saída;tarifa bb;débito;84,6;484126,9
+18/09/2023;01/10/2023;Saída;revisão carro;crédito;1366,7;482760,2
+18/09/2023;01/10/2023;Saída; vans ;crédito;353,6;482406,6
+18/09/2023;01/10/2023;Saída;mormaii;crédito;343,7;482062,9
+18/09/2023;01/10/2023;Saída;fraude;crédito;1171,2;480891,7
+18/09/2023;01/10/2023;Saída;fraude;crédito;-1171,2;482062,9
+28/09/2023;01/10/2023;Saída;ms office;crédito;1795;480267,9
+01/10/2023;01/10/2023;Saída;Aluguel/Parcelamento ;pix;5833,35;474434,55
+01/10/2023;01/10/2023;Saída;Convênio;boleto;5892,05;468542,5
+01/10/2023;01/10/2023;Saída;Água;pix;92,15;468450,35
+01/10/2023;01/10/2023;Saída;Luz;pix;357;468093,35
+01/10/2023;01/10/2023;Saída;Condomínio;pix;3097,5;464995,85
+01/10/2023;01/10/2023;Saída;Combustível;pix;220;464775,85
+01/10/2023;01/10/2023;Saída;Internet ;pix;216,4;464559,45
+01/10/2023;01/10/2023;Saída;Telefone;crédito;1462,35;463097,1
+01/10/2023;01/10/2023;Saída;Assinaturas;crédito;359,5;462737,6
+01/10/2023;01/10/2023;Saída; Alimentação ;crédito;4759;457978,6
+01/10/2023;01/10/2023;Saída;Higiêne;crédito;261,25;457717,35
+01/10/2023;01/10/2023;Saída;Lazer;crédito;1884,85;455832,5
+01/10/2023;01/10/2023;Saída;Uber;crédito;773,75;455058,75
+01/10/2023;01/10/2023;Entrada;rico bcff11;rendimento;-2796,45;452262,3
+01/10/2023;01/10/2023;Entrada;rico hglg11;rendimento;-251,25;452011,05
+01/10/2023;01/10/2023;Entrada;rico alzr11;rendimento;-37,4;451973,65
+01/10/2023;01/10/2023;Entrada;rico trend di;rendimento;300,4;452274,05
+01/10/2023;01/10/2023;Entrada;bb fundo m mercados;rendimento;-179,6;452094,45
+01/10/2023;01/10/2023;Entrada;bb fundo rf tesouro;rendimento;1327,7;453422,15
+01/10/2023;01/10/2023;Entrada;bb lca;rendimento;466,3;453888,45
+01/10/2023;01/10/2023;Entrada;bi inter cons;rendimento;98,65;453987,1
+01/10/2023;01/10/2023;Entrada;bi arx vision;rendimento;202;454189,1
+01/10/2023;01/10/2023;Entrada;bi inter corp;rendimento;179,35;454368,45
+01/10/2023;01/10/2023;Entrada; nu caixinha ;rendimento;1463,3;455831,75
+05/10/2023;01/10/2023;Saída;mb guitarra;crédito;533,4;455298,35
+05/10/2023;01/10/2023;Saída; mb guitarra har ;crédito;130,15;455168,2
+13/10/2023;01/10/2023;Saída;mouse;crédito;124,5;455043,7
+14/10/2023;01/10/2023;Entrada; Pró-labore ;pix;59461,1;514504,8
+18/10/2023;01/11/2023;Saída;monster of rock;crédito;408;514096,8
+18/10/2023;01/11/2023;Saída;ebac;crédito;1182,9;512913,9
+18/10/2023;01/11/2023;Saída;summer breeze;crédito;498,35;512415,55
+18/10/2023;01/11/2023;Saída;paul maccartney;crédito;715,1;511700,45
+18/10/2023;01/11/2023;Saída;vans;crédito;353,6;511346,85
+18/10/2023;01/11/2023;Saída; mb guitarra ;crédito;533,4;510813,45
+18/10/2023;01/11/2023;Saída;mb guitarra har;crédito;130,15;510683,3
+24/10/2023;01/10/2023;Saída;rita;pix;1100;509583,3
+26/10/2023;01/10/2023;Saída;neder;pix;1000;508583,3
+28/10/2023;01/11/2023;Saída;amazon;crédito;229,95;508353,35
+30/10/2023;01/10/2023;Saída;splitwise;crédito;971,6;507381,75
+01/11/2023;01/11/2023;Saída;Aluguel/Parcelamento ;pix;5833,35;501548,4
+01/11/2023;01/11/2023;Saída;Convênio;boleto;5892,05;495656,35
+01/11/2023;01/11/2023;Saída; Água ;pix;99,1;495557,25
+01/11/2023;01/11/2023;Saída;Luz;pix;378,75;495178,5
+01/11/2023;01/11/2023;Saída;Condomínio;pix;3097,5;492081
+01/11/2023;01/11/2023;Saída; Combustível ;pix;220;491861
+01/11/2023;01/11/2023;Saída;Internet ;pix;216,4;491644,6
+01/11/2023;01/11/2023;Saída;Telefone;crédito;375;491269,6
+01/11/2023;01/11/2023;Saída;Assinaturas;crédito;209,5;491060,1
+01/11/2023;01/11/2023;Saída;Alimentação;crédito;4930,7;486129,41
+01/11/2023;01/11/2023;Saída;Lazer;crédito;2670,8;483458,61
+01/11/2023;01/11/2023;Saída;Uber;crédito;1332,45;482126,16
+01/11/2023;01/11/2023;Entrada;rico bcff11;rendimento;684,95;482811,11
+01/11/2023;01/11/2023;Entrada;rico hglg11;rendimento;173,25;482984,36
+01/11/2023;01/11/2023;Entrada;rico alzr11;rendimento;-24,8;482959,56
+01/11/2023;01/11/2023;Entrada;rico trend di;rendimento;120,85;483080,41
+01/11/2023;01/11/2023;Entrada; bb fundo m mercados ;rendimento;702,85;483783,26
+01/11/2023;01/11/2023;Entrada;bb fundo rf tesouro;rendimento;-632,7;483150,56
+01/11/2023;01/11/2023;Entrada; bb lca ;rendimento;360,75;483511,31
+01/11/2023;01/11/2023;Entrada;bi inter cons;rendimento;93,1;483604,41
+01/11/2023;01/11/2023;Entrada;bi arx vision;rendimento;210,8;483815,21
+01/11/2023;01/11/2023;Entrada;bi inter corp;rendimento;136,55;483951,76
+01/11/2023;01/11/2023;Entrada;nu caixinha;rendimento;1035,75;484987,51
+10/11/2023;01/11/2023;Saída;fut quarta;pix;500;484487,51
+14/11/2023;01/11/2023;Entrada;Pró-labore;pix;39919,8;524407,31
+14/11/2023;01/11/2023;Saída;tarifa bb;débito;84,6;524322,71
+28/11/2023;01/11/2023;Saída;intershop;crédito;1224,9;523097,81
+30/11/2023;01/11/2023;Saída;splitwise;crédito;2229,1;520868,71
+30/11/2023;01/11/2023;Saída;lara;pix;1250;519618,71
+01/12/2023;01/12/2023;Saída;Aluguel/Parcelamento ;pix;5833,35;513785,36
+01/12/2023;01/12/2023;Saída;Convênio;boleto;5892,05;507893,31
+01/12/2023;01/12/2023;Saída; Água ;pix;99,1;507794,21
+01/12/2023;01/12/2023;Saída;Luz;pix;378,75;507415,46
+01/12/2023;01/12/2023;Saída;Condomínio;pix;3097,5;504317,96
+01/12/2023;01/12/2023;Saída;Combustível;pix;220;504097,96
+01/12/2023;01/12/2023;Saída;Internet ;pix;216,4;503881,56
+01/12/2023;01/12/2023;Saída;Telefone;crédito;375;503506,56
+01/12/2023;01/12/2023;Saída;Assinaturas;crédito;209,5;503297,06
+01/12/2023;01/12/2023;Saída;Alimentação;crédito;3281,9;500015,16
+01/12/2023;01/12/2023;Saída;Lazer;crédito;3127,1;496888,06
+01/12/2023;01/12/2023;Saída;Uber;crédito;489,2;496398,86
+01/12/2023;01/12/2023;Entrada;rico bcff11;rendimento;2889,15;499288,01
+01/12/2023;01/12/2023;Entrada; rico hglg11 ;rendimento;126;499414,01
+01/12/2023;01/12/2023;Entrada;rico alzr11;rendimento;98,4;499512,41
+01/12/2023;01/12/2023;Entrada;rico trend di;rendimento;51,5;499563,91
+01/12/2023;01/12/2023;Entrada;bb fundo m mercados;rendimento;501,2;500065,11
+01/12/2023;01/12/2023;Entrada;bb fundo rf tesouro;rendimento;214,9;500280,01
+01/12/2023;01/12/2023;Entrada;bb lca;rendimento;448,05;500728,06
+01/12/2023;01/12/2023;Entrada;bi inter cons;rendimento;76;500804,06
+01/12/2023;01/12/2023;Entrada;bi arx vision;rendimento;114,35;500918,41
+01/12/2023;01/12/2023;Entrada; bi inter corp ;rendimento;112,2;501030,61
+01/12/2023;01/12/2023;Entrada;nu caixinha;rendimento;1287,45;502318,06
+18/11/2023;01/12/2023;Saída;summer breeze 9/12;crédito;498,35;501819,71
+18/11/2023;01/12/2023;Saída;paul maccartney 4/6;crédito;715,1;501104,61
+18/11/2023;01/12/2023;Saída;vans 5/7;crédito;353,6;500751,01
+18/11/2023;01/12/2023;Saída;mb guitarra3/4;crédito;533,4;500217,61
+18/11/2023;01/12/2023;Saída;mb guitarra har 3/4;crédito;130,15;500087,46
+25/11/2023;01/12/2023;Saída;rock posters 1/3;crédito;533,15;499554,31
+25/11/2023;01/12/2023;Saída;fone edifier 1/4;crédito;374,1;499180,21
+25/11/2023;01/12/2023;Saída; roupas magalu 1/4 ;crédito;369;498811,21
+25/11/2023;01/12/2023;Saída;roupas magalu;crédito;334;498477,21
+04/12/2023;01/12/2023;Saída;chuveiro;crédito;555;497922,21
+04/12/2023;01/12/2023;Entrada; Pró-labore ;pix;35000;532922,21
+04/12/2023;01/12/2023;Entrada;Dividendos;pix;18310,8;551233,01
+04/12/2023;01/12/2023;Saída;tarifa bb;débito;84,6;551148,41
+30/12/2023;01/12/2023;Saída;splitwise;crédito;-244,15;551392,56
