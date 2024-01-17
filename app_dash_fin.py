@@ -154,7 +154,7 @@ def main():
 
         saldos = pd.merge(entradas_mes, saidas_mes, on = 'mes', how='inner')
         saldos['variacao'] = saldos.movimentacao_x - saldos.movimentacao_y
-	st.write(saldos.columns)
+        st.write(saldos.columns)
         saldos.columns= ['entradas', 'saldo_ent', 'ano_ent', 'saidas', 'saldo_sai', 'ano_sai', 'variacao']
 
         fig = px.bar(saldos, x=saldos.index, y=['entradas', 'saidas'])
