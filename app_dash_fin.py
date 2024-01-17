@@ -21,10 +21,16 @@ def load_data(file_data):
     try:
         dateparse = lambda x: datetime.strptime(x, '%d/%m/%Y')
         df = pd.read_csv(file_data, sep = ';', encoding = 'utf-8', 
-                 parse_dates=['data', 'exercicio'],date_parser=dateparse)  
+                 parse_dates=['data', 'exercicio'],date_parser=dateparse, engine='openpyxl')  
+        
+        df['movimentacao'] = df['movimentacao'].apply(lambda x: float(x.replace(".","").replace(",",".")))
+        df['saldo'] = df['saldo'].apply(lambda x: float(x.replace(".","").replace(",",".")))
+        df_rend['movimentacao'] = df_rend['movimentacao'].apply(lambda x: float(x.replace(".","").replace(",",".")))
+        df_rend['saldo'] = df_rend['saldo'].apply(lambda x: float(x.replace(".","").replace(",",".")))
+        
         return df
     except:
-        return pd.read_excel(open(file_data, 'rb'),
+        return pd.read_excel(file_data,
               sheet_name='fluxo_fin', header=1)
     
 
@@ -57,14 +63,7 @@ def main():
 
         df_raw = load_data(data_file_1)
         df = df_raw.copy()
-        df_rend = df_raw.copy()
-
-        # df['exercicio'] = pd.to_datetime(df['exercicio'])
-        # df['data'] = pd.to_datetime(df['data'])
-        df['movimentacao'] = df['movimentacao'].apply(lambda x: float(x.replace(".","").replace(",",".")))
-        df['saldo'] = df['saldo'].apply(lambda x: float(x.replace(".","").replace(",",".")))
-        df_rend['movimentacao'] = df_rend['movimentacao'].apply(lambda x: float(x.replace(".","").replace(",",".")))
-        df_rend['saldo'] = df_rend['saldo'].apply(lambda x: float(x.replace(".","").replace(",",".")))
+        df_rend = df_raw.copy()        
  
         with st.sidebar.form('my_form'):
             st.write("Inside the form")
@@ -92,6 +91,7 @@ def main():
             # Every form must have a submit button.
             submit_button = st.form_submit_button(label='Aplicar')
         
+		
         saidas = df[df['tipo']=='Saída']
         entradas = df[df['tipo']=='Entrada']
 
@@ -109,7 +109,7 @@ def main():
         gastos_mes = maiores_saidas_stack[(maiores_saidas_stack['mes'].isin(mes)) & (maiores_saidas_stack['ano'].isin(ano))]
 
         lista_gastos_mes = gastos_mes.groupby('segmento').sum().sort_values(0, ascending =  False).head(7)
-        lista_gastos_media = df_rend[df_rend['tipo']=='Saída'].groupby('segmento').mean().sort_values('movimentacao', ascending =  False)[['movimentacao', 'saldo']].head(7)
+        lista_gastos_media = df_rend[df_rend['tipo']=='Saída'].groupby('segmento').mean().sort_values('movimentacao', ascending =  False).head(7)
 
         trace1 = go.Pie(values=lista_gastos_media['movimentacao'], labels=lista_gastos_media.index,
         domain=dict(x=[0, 0.5]),
@@ -129,7 +129,6 @@ def main():
         st.plotly_chart(fig, use_container_width=True)
 
         st.write('## Entradas x Saídas x Saldo')
-        
         # Gráficos de Entradas x Saídas x Saldos
 
         saidas_rend = df_rend[df_rend['tipo']=='Saída']
@@ -142,10 +141,10 @@ def main():
         fig = px.bar(saldos, x=saldos.index, y=['entradas', 'saidas'])
         fig.add_scatter(x=saldos.index, y=saldos['variacao'], mode='lines+text', text=round(saldos.variacao,2), name = 'Saldo')
         fig.update_layout(title='Entradas x Saídas',
-            yaxis_title='R$',
-	    plot_bgcolor = 'white',
-	    font = {'family': 'Arial','size': 12,'color': 'black'},
-	    colorway=["green"])
+        yaxis_title='R$',
+        plot_bgcolor = 'white',
+        font = {'family': 'Arial','size': 12,'color': 'black'},
+        colorway=["green"])
         st.plotly_chart(fig, use_container_width=True) 
 
 
@@ -153,34 +152,35 @@ def main():
         # Gráficos de Rendimentos
         rendimentos = pd.pivot_table(df_rend[df_rend['meio']=='rendimento'],index='exercicio', columns='segmento', values='movimentacao')
         new_row = pd.DataFrame({'bb fundo m mercados': 6000, 'bb fundo rf tesouro': 7000, 'bb lca': 9000, 'bi arx vision': 4000,
-			    'bi inter cons': 2000, 'bi inter corp': 3000, 'nu caixinha': 30000, 'rico alzr11': 400, 'rico bcff11': 7000,
-			    'rico hglg11': 2000, 'rico trend di':2000}, index=[0])
+                    'bi inter cons': 2000, 'bi inter corp': 3000, 'nu caixinha': 30000, 'rico alzr11': 400, 'rico bcff11': 7000,
+                    'rico hglg11': 2000, 'rico trend di':2000}, index=[0])
         rendimentos = pd.concat([new_row,rendimentos.loc[:]]).reset_index(drop=True)
 
         for i in range(0,len(rendimentos.columns)):
-            rendimentos[rendimentos.columns[i]+'_cumsum'] = rendimentos[rendimentos.columns[i]].cumsum()
-
+	        rendimentos[rendimentos.columns[i]+'_cumsum'] = rendimentos[rendimentos.columns[i]].cumsum()
+             
+                
         rendimentos_acum = rendimentos[['bb fundo m mercados_cumsum', 'bb fundo rf tesouro_cumsum',
-				'bb lca_cumsum', 'bi arx vision_cumsum', 'bi inter cons_cumsum',
-				'bi inter corp_cumsum', 'nu caixinha_cumsum', 'rico alzr11_cumsum',
-				'rico bcff11_cumsum', 'rico hglg11_cumsum', 'rico trend di_cumsum']]
-
+										'bb lca_cumsum', 'bi arx vision_cumsum', 'bi inter cons_cumsum',
+										'bi inter corp_cumsum', 'nu caixinha_cumsum', 'rico alzr11_cumsum',
+										'rico bcff11_cumsum', 'rico hglg11_cumsum', 'rico trend di_cumsum']] 
+             
         fig = px.bar(rendimentos_acum, x=rendimentos_acum.index, y=rendimentos_acum.columns)
         fig.update_layout(title='Rendimentos',
-			    yaxis_title='R$',
-			    xaxis_title='Meses',
-			    plot_bgcolor = 'white',
-			    font = {'family': 'Arial','size': 12,'color': 'black'})
+        yaxis_title='R$',
+        xaxis_title='Meses',
+        plot_bgcolor = 'white',
+        font = {'family': 'Arial','size': 12,'color': 'black'})
         st.plotly_chart(fig, use_container_width=True) 
 
         fig = px.line(rendimentos_acum, x=rendimentos_acum.index, y=rendimentos_acum.columns, 
-				markers = True)
+	                    markers = True)
 
         fig.update_layout(title='Rendimentos',
-			    yaxis_title='R$',
-			    xaxis_title='Meses',
-			    plot_bgcolor = 'white',
-			    font = {'family': 'Arial','size': 12,'color': 'black'})
+        yaxis_title='R$',
+        xaxis_title='Meses',
+        plot_bgcolor = 'white',
+        font = {'family': 'Arial','size': 12,'color': 'black'})
         st.plotly_chart(fig, use_container_width=True) 
     
     else:
@@ -189,13 +189,3 @@ def main():
 
 if __name__ == '__main__':
 	main()
-    
-
-
-
-
-
-
-
-
-
