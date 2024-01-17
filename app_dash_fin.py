@@ -109,13 +109,13 @@ def main():
         gastos_mes = maiores_saidas_stack[(maiores_saidas_stack['mes'].isin(mes)) & (maiores_saidas_stack['ano'].isin(ano))]
 
         lista_gastos_mes = gastos_mes.groupby('segmento').sum().sort_values(0, ascending =  False).head(7)
-        lista_gastos_media = (df[df['tipo']=='Saída'].groupby('segmento').mean()
+       # lista_gastos_media = (df[df['tipo']=='Saída'].groupby('segmento').mean()
                       .sort_values('movimentacao', ascending =  False)[:7])
 
-        trace1 = go.Pie(values=lista_gastos_media['movimentacao'], labels=lista_gastos_media.index,
-        domain=dict(x=[0, 0.5]),
-        hoverinfo="label+percent+name",
-        title = "Média dos maiores gastos")
+        # trace1 = go.Pie(values=lista_gastos_media['movimentacao'], labels=lista_gastos_media.index,
+        # domain=dict(x=[0, 0.5]),
+        # hoverinfo="label+percent+name",
+        # title = "Média dos maiores gastos")
 
         trace2 = go.Pie(values=lista_gastos_mes[0], labels=lista_gastos_mes.index,
         domain=dict(x=[0.5, 1]),
@@ -123,7 +123,8 @@ def main():
         title = "Maiores gastos atuais")
 
         layout = go.Layout()
-        data = [trace1, trace2]
+        # data = [trace1, trace2]
+	data = [trace2]
         fig = go.Figure(data=data, layout=layout)
         fig.update_traces(textposition='inside', textinfo='percent+label')
 
