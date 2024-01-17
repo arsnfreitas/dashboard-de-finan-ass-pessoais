@@ -1,4 +1,3 @@
-
 # Imports
 import pandas            as pd
 import streamlit         as st
@@ -147,8 +146,11 @@ def main():
 
         saidas_rend = df_rend[df_rend['tipo']=='Saída']
         entradas_rend = df_rend[df_rend['tipo']=='Entrada']
+	    
+        entradas_mes = entradas_rend.groupby('mes').sum()
+        saidas_mes = saidas_rend.groupby('mes').sum()
 
-        saldos = pd.merge(entradas_rend.groupby('mes').sum(), saidas_rend.groupby('mes').sum(), on = 'mes', how='inner')
+        saldos = pd.merge(entradas_mes, saidas_mes, on = 'mes', how='inner')
         saldos['variacao'] = saldos.movimentacao_x - saldos.movimentacao_y
         saldos.columns= ['entradas', 'saldo_ent', 'ano_ent', 'saidas', 'saldo_sai', 'ano_sai', 'variacao']
 
