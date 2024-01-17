@@ -108,7 +108,7 @@ def main():
         gastos_mes = maiores_saidas_stack[(maiores_saidas_stack['mes'].isin(mes)) & (maiores_saidas_stack['ano'].isin(ano))]
 
         lista_gastos_mes = gastos_mes.groupby('segmento').sum().sort_values(0, ascending =  False).head(7)
-        lista_gastos_media = df_rend[df_rend['tipo']=='Saída'].groupby('segmento').mean().sort_values('movimentacao', ascending =  False).head(7)
+        lista_gastos_media = df_rend[df_rend['tipo']=='Saída'].groupby('segmento').mean().sort_values('movimentacao', ascending =  False)[['movimentacao', 'saldo']].head(7)
 
         trace1 = go.Pie(values=lista_gastos_media['movimentacao'], labels=lista_gastos_media.index,
         domain=dict(x=[0, 0.5]),
