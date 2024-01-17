@@ -147,8 +147,10 @@ def main():
         saidas_rend = df_rend[df_rend['tipo']=='Saída']
         entradas_rend = df_rend[df_rend['tipo']=='Entrada']
 	    
-        entradas_mes = entradas_rend.groupby('mes').sum()
-        saidas_mes = saidas_rend.groupby('mes').sum()
+        entradas_mes = entradas_rend[['tipo', 'segmento', 'meio', 'movimentacao',
+       				      'saldo', 'mes', 'ano']].groupby('mes').sum()
+        saidas_mes = saidas_rend[['tipo', 'segmento', 'meio', 'movimentacao',
+       				  'saldo', 'mes', 'ano']].groupby('mes').sum()
 
         saldos = pd.merge(entradas_mes, saidas_mes, on = 'mes', how='inner')
         saldos['variacao'] = saldos.movimentacao_x - saldos.movimentacao_y
