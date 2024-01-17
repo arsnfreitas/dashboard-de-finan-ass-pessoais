@@ -24,7 +24,8 @@ def load_data(file_data):
                  parse_dates=['data', 'exercicio'],date_parser=dateparse)  
         return df
     except:
-        return pd.read_excel(file_data)
+        return pd.read_excel(open(file_data, 'rb'),
+              sheet_name='fluxo_fin')
     
 
 # Função para filtrar baseado na multiseleção de categorias
