@@ -115,25 +115,8 @@ def main():
             ano = [df['ano'][0]]
 
             gastos_mes = maiores_saidas_stack[(maiores_saidas_stack['mes'].isin(mes)) & (maiores_saidas_stack['ano'].isin(ano))]
-
             lista_gastos_mes = gastos_mes.groupby('segmento').sum().sort_values(0, ascending =  False).head(7)
-            # lista_gastos_media = df_rend[df_rend['tipo']=='Saída'].groupby('segmento').mean().sort_values('movimentacao', ascending =  False).head(7)
-
-            # trace1 = go.Pie(values=lista_gastos_media['movimentacao'], labels=lista_gastos_media.index,
-            # domain=dict(x=[0, 0.5]),
-            # hoverinfo="label+percent+name",
-            # title = "Média dos maiores gastos")
-
-            # trace2 = go.Pie(values=lista_gastos_mes[0], labels=lista_gastos_mes.index,
-            # domain=dict(x=[0.5, 1]),
-            # hoverinfo="label+percent+name",
-            # title = "Maiores gastos atuais")
-
-            # layout = go.Layout()
-            # data = [trace1, trace2]
-            # fig = go.Figure(data=data, layout=layout)
-            # fig.update_traces(textposition='inside', textinfo='percent+label')
-            
+		
             fig = px.pie(lista_gastos_mes, values=lista_gastos_mes[0], names=lista_gastos_mes.index)
             fig.update_traces(textposition='inside', textinfo='percent+label')
            
@@ -154,7 +137,6 @@ def main():
 
         saldos = pd.merge(entradas_mes, saidas_mes, on = 'mes', how='inner')
         saldos['variacao'] = saldos.movimentacao_x - saldos.movimentacao_y
-        st.write(saldos.columns)
         saldos.columns= ['entradas', 'saldo_ent', 'ano_ent', 'saidas', 'saldo_sai', 'ano_sai', 'variacao']
 
         fig = px.bar(saldos, x=saldos.index, y=['entradas', 'saidas'])
