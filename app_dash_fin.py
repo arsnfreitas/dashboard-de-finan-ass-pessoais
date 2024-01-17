@@ -31,7 +31,7 @@ def load_data(file_data):
         return df
     except:
         return pd.read_excel(file_data,
-              sheet_name='fluxo_fin', header=1)
+              sheet_name='fluxo_fin', header=1, engine='openpyxl')
     
 
 # Função para filtrar baseado na multiseleção de categorias
